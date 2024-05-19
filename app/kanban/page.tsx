@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { cardsData, columns, ICard, IColumn } from "./columns";
+import { cardsData, columns, ICard, IColumn } from "./data";
 
 const KanbanBoard = () => {
   const [cards, setCards] = useState(cardsData);
